@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <meta name="theme-color" content="#1D2B45" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="High-converting B2B SaaS landing page for an AI Receptionist service tailored for the Nigerian market." />
+    
+    <title>BARPEL.AI - Your 24/7 AI Receptionist</title>
+    
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="https://via.placeholder.com/192.png?text=Barpel" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                black: '#0F172A',
+                graphite: '#1D2B45', // Logo Dark Navy
+                white: '#FFFFFF',
+                cloud: '#F1F5F9', // Light background
+                steel: '#3EB4A8', // Logo Teal (Primary Brand Color)
+                sage: '#8BD7C9', // Lighter Teal
+                silver: '#94A3B8',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              display: ['DM Sans', 'Inter', 'sans-serif'],
+            },
+            backgroundImage: {
+              'brand-gradient': 'linear-gradient(135deg, #1D2B45 0%, #3EB4A8 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { 
+        font-family: 'Inter', system-ui, sans-serif; 
+        background-color: #FAFAFA;
+        color: #1D2B45;
+        overscroll-behavior-y: none; /* Prevent pull-to-refresh on mobile */
+      }
+      h1, h2, h3, h4, h5, h6 { font-family: 'DM Sans', sans-serif; }
+      
+      /* Hide scrollbar for clean UI */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0",
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.8?deps=react@18.2.0,react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

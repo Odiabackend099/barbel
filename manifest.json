@@ -1,0 +1,21 @@
+{
+  "short_name": "Barpel.AI",
+  "name": "Barpel.AI Receptionist",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192.png?text=Barpel",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://via.placeholder.com/512.png?text=Barpel",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1D2B45",
+  "background_color": "#FAFAFA",
+  "orientation": "portrait"
+}
